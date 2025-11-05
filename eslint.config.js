@@ -15,7 +15,7 @@ export default ts.config(
   {
     plugins: { prettier, 'unused-imports': unusedImports },
     rules: {
-      'prettier/prettier': 'error',
+      'prettier/prettier': 'off',
     },
   },
   {

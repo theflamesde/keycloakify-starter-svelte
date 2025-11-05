@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: flames --default;
+}
+@plugin "daisyui/theme" {
+    name: "flames";
+    default: true;
+    prefersdark: true;
+    color-scheme: "dark";
+
+    /* brand */
+    --color-primary: #ff4040;
+    --color-primary-content: #000000;
+    --color-secondary: #ff5b5b;
+    --color-secondary-content: #000000;
+    --color-accent: #37cdbe;
+    --color-accent-content: #000000;
+
+    /* base & neutral */
+    --color-neutral: #3d4451;
+    --color-neutral-content: #ffffff;
+
+    --color-base-100: #181c1f;
+    --color-base-200: #14181b;
+    --color-base-300: #0f1316;
+    --color-base-content: #e5e7eb;
+
+    --color-info: oklch(74% 0.16 232.661);
+    --color-info-content: oklch(29% 0.066 243.157);
+    --color-success: oklch(76% 0.177 163.223);
+    --color-success-content: oklch(37% 0.077 168.94);
+    --color-warning: oklch(82% 0.189 84.429);
+    --color-warning-content: oklch(41% 0.112 45.904);
+    --color-error: oklch(71% 0.194 13.428);
+    --color-error-content: oklch(27% 0.105 12.094);
+
+    /* radii / sizes (mapped from your old vars) */
+    --radius-box: 1rem;      /* was --rounded-box */
+    --radius-field: 0.5rem;  /* buttons/inputs: was --rounded-btn */
+    --radius-selector: 0.5rem; /* tabs etc.: was --tab-radius */
+
+    --size-field: 0.25rem;   /* keep sensible defaults */
+    --size-selector: 0.25rem;
+
+    --border: 1px;           /* was --border-btn / --tab-border */
+    --depth: 1;
+    --noise: 0;
+}
