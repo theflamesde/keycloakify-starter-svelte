@@ -70,16 +70,15 @@
         <section class="relative isolate px-6 pt-14 lg:px-8">
             <div class="mx-auto max-w-6xl py-16 lg:py-24">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-                    <!-- Left: Headline -->
                     <div class="text-center lg:text-left relative">
                         <h1 class="text-4xl sm:text-5xl font-extrabold">
-              <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent uppercase">
-                {@render msg('webauthn-login-title')()}
-              </span>
+                            <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent uppercase">{msgStr('loginTitleHtml', realm.displayNameHtml)}</span>
                         </h1>
-                        <p class="mt-4 text-lg opacity-80">
-                            {@html advancedMsgStr?.('webauthn-login-description') ?? ''}
-                        </p>
+                        <p class="mt-4 text-lg text-gray-300">Melde dich an, um Zugriff auf unsere Dienste zu erhalten.</p>
+                        <div class="mt-8 flex items-center justify-center lg:justify-start gap-3">
+                            <a href="https://dc.the-flames.de" target="_blank" class="btn btn-discord">Discord</a>
+                            <a href="/posts" class="btn btn-ghost">Posts</a>
+                        </div>
 
                         <img src="/blog_post_leaning.png" alt="Decor" class="hidden lg:block w-[64rem] max-w-none rounded-xl absolute -right-40 -top-10 pointer-events-none opacity-30" />
                     </div>

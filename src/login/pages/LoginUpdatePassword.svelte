@@ -35,14 +35,13 @@
                     <!-- LEFT -->
                     <div class="text-center lg:text-left">
                         <h1 class="text-4xl sm:text-5xl font-extrabold">
-              <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent uppercase">
-                {@render msg('updatePasswordTitle')()}
-              </span>
+                             <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent uppercase">
+                               {@render msg('updatePasswordTitle')()}
+                             </span>
                         </h1>
-
                         <div class="mt-8 flex items-center justify-center lg:justify-start gap-3">
-                            <a href="https://dc.the-flames.de" target="_blank" class="btn btn-ghost">https://dc.the-flames.de</a>
-                            <a href="https://the-flames.de/posts" target="_blank" class="btn btn-ghost">https://the-flames.de/posts</a>
+                            <a href="https://dc.the-flames.de" target="_blank" class="btn btn-discord">Discord</a>
+                            <a href="/posts" class="btn btn-ghost">Posts</a>
                         </div>
                     </div>
 

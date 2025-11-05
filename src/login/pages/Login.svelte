@@ -28,13 +28,6 @@
     :root { --discord-color: 88, 101, 242; }
     .btn-discord { background-color: rgba(var(--discord-color), 1); transition: background-color .3s ease; }
     .btn-discord:hover { background-color: rgba(var(--discord-color), .7); }
-
-    /* Optional: thin animated gradient mesh behind the card */
-    .hero-gradient {
-        background: radial-gradient(1200px 600px at 80% 10%, rgba(255,64,64,.35), transparent 60%),
-        radial-gradient(900px 500px at 10% 20%, rgba(88,101,242,.35), transparent 60%),
-        linear-gradient(180deg, rgba(0,0,0,.15), rgba(0,0,0,.35));
-    }
 </style>
 
 <Template
@@ -95,22 +88,19 @@
         <section class="relative isolate px-6 pt-14 lg:px-8">
             <div class="mx-auto max-w-6xl py-16 lg:py-24">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-                    <!-- Left: Brand headline -->
                     <div class="text-center lg:text-left relative">
                         <h1 class="text-4xl sm:text-5xl font-extrabold">
                             <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent uppercase">{msgStr('loginTitleHtml', realm.displayNameHtml)}</span>
                         </h1>
                         <p class="mt-4 text-lg text-gray-300">Melde dich an, um Zugriff auf unsere Dienste zu erhalten.</p>
                         <div class="mt-8 flex items-center justify-center lg:justify-start gap-3">
-                            <a href="https://dc.the-flames.de" target="_blank" class="btn btn-discord">https://dc.the-flames.de</a>
-                            <a href="/posts" class="btn btn-ghost">/posts</a>
+                            <a href="https://dc.the-flames.de" target="_blank" class="btn btn-discord">Discord</a>
+                            <a href="/posts" class="btn btn-ghost">Posts</a>
                         </div>
 
-                        <!-- Decorative leaning image slot (optional) -->
                         <img src="/blog_post_leaning.png" alt="Decor" class="hidden lg:block w-[64rem] max-w-none rounded-xl absolute -right-40 -top-10 pointer-events-none opacity-30" />
                     </div>
 
-                    <!-- Right: Login Card -->
                     <div class="relative">
                         <div class="relative border-4 rounded-3xl border-primary/40 bg-base-200/80 backdrop-blur shadow-2xl p-6 sm:p-8">
                             <h2 class="text-2xl font-bold mb-2">{@render msg('loginAccountTitle')()}</h2>

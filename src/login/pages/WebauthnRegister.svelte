@@ -45,13 +45,10 @@
                     <!-- Left: Headline / explainer -->
                     <div class="text-center lg:text-left relative">
                         <h1 class="text-4xl sm:text-5xl font-extrabold">
-              <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent uppercase">
-                {@render msg('webauthn-registration-title')()}
-              </span>
+                            <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent uppercase">
+                              {@render msg('webauthn-registration-title')()}
+                            </span>
                         </h1>
-                        <p class="mt-4 text-lg opacity-80">
-                            {@render msg('doRegisterSecurityKey')()}
-                        </p>
                         <img src="/blog_post_leaning.png" alt="Decor" class="hidden lg:block w-[64rem] max-w-none rounded-xl absolute -right-40 -top-10 pointer-events-none opacity-30" />
                     </div>
 

@@ -117,8 +117,8 @@
                             {@render msg('personalInfo')() /* or your own static copy */}
                         </p>
                         <div class="mt-8 flex items-center justify-center lg:justify-end gap-3">
-                            <a href="https://dc.the-flames.de" target="_blank" class="btn btn-ghost">https://dc.the-flames.de</a>
-                            <a href="/posts" class="btn btn-ghost">/posts</a>
+                            <a href="https://dc.the-flames.de" target="_blank" class="btn btn-discord">Discord</a>
+                            <a href="/posts" class="btn btn-ghost">Posts</a>
                         </div>
 
                         <!-- Optional decorative image, matching your Login page -->

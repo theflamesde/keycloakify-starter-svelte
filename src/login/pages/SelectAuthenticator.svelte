@@ -54,15 +54,7 @@
     <div class="min-h-[100dvh]">
         <section class="relative isolate px-6 pt-14 lg:px-8">
             <div class="mx-auto max-w-6xl py-16 lg:py-24">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
-                    <!-- LEFT: Headline -->
-                    <div class="text-center lg:text-left">
-                        <h1 class="text-4xl sm:text-5xl font-extrabold">
-              <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent uppercase">
-                {@render msg('loginChooseAuthenticator')()}
-              </span>
-                        </h1>
-                    </div>
+                <div class="items-start">
 
                     <!-- RIGHT: Glass card with choices -->
                     <div class="relative">

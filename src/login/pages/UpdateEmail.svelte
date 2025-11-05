@@ -49,17 +49,7 @@
     <div class="min-h-[100dvh]">
         <section class="relative isolate px-6 pt-14 lg:px-8">
             <div class="mx-auto max-w-6xl py-16 lg:py-24">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
-                    <!-- LEFT: Headline / explainer -->
-                    <div class="text-center lg:text-left">
-                        <h1 class="text-4xl sm:text-5xl font-extrabold">
-              <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent uppercase">
-                {@render msg('updateEmailTitle')()}
-              </span>
-                        </h1>
-                    </div>
-
-                    <!-- RIGHT: Glass card with form -->
+                <div class="items-start">
                     <div class="relative">
                         <div class="relative border-4 rounded-3xl border-primary/40 bg-base-200/80 backdrop-blur shadow-2xl p-6 sm:p-8">
                             <h2 class="text-2xl font-bold mb-2">

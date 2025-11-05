@@ -44,8 +44,8 @@
 
                         <!-- Optional quick links (full URLs as text) -->
                         <div class="mt-8 flex items-center justify-center lg:justify-start gap-3">
-                            <a href="https://dc.the-flames.de" target="_blank" class="btn btn-ghost">https://dc.the-flames.de</a>
-                            <a href="https://the-flames.de/posts" target="_blank" class="btn btn-ghost">https://the-flames.de/posts</a>
+                            <a href="https://dc.the-flames.de" target="_blank" class="btn btn-discord">Discord</a>
+                            <a href="/posts" class="btn btn-ghost">Posts</a>
                         </div>
                     </div>
 

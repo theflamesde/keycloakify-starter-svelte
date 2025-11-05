@@ -88,16 +88,12 @@
                     <!-- Left: Brand headline -->
                     <div class="text-center lg:text-left relative">
                         <h1 class="text-4xl sm:text-5xl font-extrabold">
-              <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent uppercase">
-                {msgStr('loginTitleHtml', realm.displayNameHtml)}
-              </span>
+                            <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent uppercase">{msgStr('loginTitleHtml', realm.displayNameHtml)}</span>
                         </h1>
-                        <p class="mt-4 text-lg opacity-80">
-                            {@render msg('doLogIn')()}
-                        </p>
+                        <p class="mt-4 text-lg text-gray-300">Melde dich an, um Zugriff auf unsere Dienste zu erhalten.</p>
                         <div class="mt-8 flex items-center justify-center lg:justify-start gap-3">
-                            <a href="https://dc.the-flames.de" target="_blank" rel="noreferrer" class="btn btn-discord">https://dc.the-flames.de</a>
-                            <a href="/posts" class="btn btn-ghost">/posts</a>
+                            <a href="https://dc.the-flames.de" target="_blank" class="btn btn-discord">Discord</a>
+                            <a href="/posts" class="btn btn-ghost">Posts</a>
                         </div>
 
                         <img src="/blog_post_leaning.png" alt="Decor" class="hidden lg:block w-[64rem] max-w-none rounded-xl absolute -right-40 -top-10 pointer-events-none opacity-30" />

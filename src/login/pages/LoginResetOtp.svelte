@@ -34,21 +34,14 @@
 
     <div class="min-h-[100dvh]">
         <section class="relative isolate px-6 pt-14 lg:px-8">
-            <div class="mx-auto max-w-6xl py-16 lg:py-24">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
-                    <div class="text-center lg:text-left">
-                        <h1 class="text-4xl sm:text-5xl font-extrabold">
-                        </h1>
-                        <p class="mt-4 text-lg opacity-80" id="kc-otp-reset-form-description">
-                            {@render msg('otp-reset-description')()}
-                        </p>
-                    </div>
+            <div class="mx-auto max-w-6xl py-16 lg:py-20">
+                <div class="items-start">
 
                     <div class="relative">
                         <div class="relative border-4 rounded-3xl border-primary/40 bg-base-200/80 backdrop-blur shadow-2xl p-6 sm:p-8">
                             <h2 class="text-2xl font-bold mb-2">{@render msg('doLogIn')()}</h2>
                             <p class="opacity-70 mb-6">
-                                {@render msg('chooseAnAuthenticatorToReset')()}
+                                {msgStr('chooseAnAuthenticatorToReset')}
                             </p>
 
                             <form

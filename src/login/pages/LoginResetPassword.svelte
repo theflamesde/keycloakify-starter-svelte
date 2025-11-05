@@ -63,16 +63,9 @@
                         </p>
 
                         <div class="mt-8 flex items-center justify-center lg:justify-start gap-3">
-                            <!-- full URLs per your preference -->
-                            <a href="https://dc.the-flames.de" target="_blank" class="btn btn-discord">https://dc.the-flames.de</a>
-                            <a href="https://the-flames.de/posts" class="btn btn-ghost">https://the-flames.de/posts</a>
+                            <a href="https://dc.the-flames.de" target="_blank" class="btn btn-discord">Discord</a>
+                            <a href="/posts" class="btn btn-ghost">Posts</a>
                         </div>
-
-                        <img
-                                src="/blog_post_leaning.png"
-                                alt="Decor"
-                                class="hidden lg:block w-[64rem] max-w-none rounded-xl absolute -right-40 -top-10 pointer-events-none opacity-30"
-                        />
                     </div>
 
                     <!-- Right: Reset card -->

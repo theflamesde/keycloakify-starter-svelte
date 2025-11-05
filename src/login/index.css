@@ -46,3 +46,7 @@
     --depth: 1;
     --noise: 0;
 }
+
+:root { --discord-color: 88, 101, 242; }
+.btn-discord { background-color: rgba(var(--discord-color), 1); transition: background-color .3s ease; }
+.btn-discord:hover { background-color: rgba(var(--discord-color), .7); }
