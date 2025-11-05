@@ -55,6 +55,38 @@
             return import('./pages/LoginIdpLinkEmail.svelte');
         case 'login-page-expired.ftl':
             return import('./pages/LoginPageExpired.svelte');
+        case 'login-config-totp.ftl':
+            return import('./pages/LoginConfigTotp.svelte');
+        case 'logout-confirm.ftl':
+            return import('./pages/LogoutConfirm.svelte');
+        case 'idp-review-user-profile.ftl':
+            return import('./pages/IdpReviewUserProfile.svelte');
+        case 'update-email.ftl':
+            return import('./pages/UpdateEmail.svelte');
+        case 'select-authenticator.ftl':
+            return import('./pages/SelectAuthenticator.svelte');
+        case 'saml-post-form.ftl':
+            return import('./pages/SamlPostForm.svelte');
+        case 'delete-credential.ftl':
+            return import('./pages/DeleteCredential.svelte');
+        case 'code.ftl':
+            return import('./pages/Code.svelte');
+        case 'delete-account-confirm.ftl':
+            return import('./pages/DeleteAccountConfirm.svelte');
+        case 'frontchannel-logout.ftl':
+            return import('./pages/FrontchannelLogout.svelte');
+        case 'login-recovery-authn-code-config.ftl':
+            return import('./pages/LoginRecoveryAuthnCodeConfig.svelte');
+        case 'login-recovery-authn-code-input.ftl':
+            return import('./pages/LoginRecoveryAuthnCodeInput.svelte');
+        case 'login-reset-otp.ftl':
+            return import('./pages/LoginResetOtp.svelte');
+        case 'login-x509-info.ftl':
+            return import('./pages/LoginX509Info.svelte');
+        case 'login-passkeys-conditional-authenticate.ftl':
+            return import('./pages/LoginPasskeysConditionalAuthenticate.svelte');
+        case 'login-idp-link-confirm-override.ftl':
+            return import('./pages/LoginIdpLinkConfirmOverride.svelte');
         default:
             return import('@keycloakify/svelte/login/DefaultPage.svelte');
     }
